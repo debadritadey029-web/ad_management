@@ -1,0 +1,6 @@
+{
+  "name": "AdVantage AI",
+  "description": "Enterprise AI Advertising Management Platform unifying cross-channel ad operations, multi-currency financial safeguards, AI copilot, creative studio, and leads.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
