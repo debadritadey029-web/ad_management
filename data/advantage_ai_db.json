@@ -1,0 +1,702 @@
+{
+  "version": 1,
+  "lastSavedAt": "2026-10-18T10:21:41.223Z",
+  "users": [
+    [
+      "usr_sarah",
+      {
+        "id": "usr_sarah",
+        "email": "sarah.jenkins@advantage-ai.enterprise",
+        "name": "Sarah Jenkins",
+        "avatarUrl": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150",
+        "passwordSalt": "a8f192b03e5c7d2194812a0f8b1c4d5e",
+        "passwordHash": "5aa02f9abaec8c971d99066d1a19e269506a37f7c17ffceedccde129334407bf9fb61f43cf6c06c45e974ed99b6a07ef7d5fb4eea0d788b3a77de01d98cebe74",
+        "createdAt": "2026-01-10T08:00:00Z"
+      }
+    ],
+    [
+      "usr_marcus",
+      {
+        "id": "usr_marcus",
+        "email": "marcus.vance@advantage-ai.enterprise",
+        "name": "Marcus Vance",
+        "avatarUrl": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150",
+        "passwordSalt": "a8f192b03e5c7d2194812a0f8b1c4d5e",
+        "passwordHash": "5aa02f9abaec8c971d99066d1a19e269506a37f7c17ffceedccde129334407bf9fb61f43cf6c06c45e974ed99b6a07ef7d5fb4eea0d788b3a77de01d98cebe74",
+        "createdAt": "2026-01-10T08:05:00Z"
+      }
+    ],
+    [
+      "usr_priya",
+      {
+        "id": "usr_priya",
+        "email": "priya.sharma@advantage-ai.enterprise",
+        "name": "Priya Sharma",
+        "avatarUrl": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150",
+        "passwordSalt": "a8f192b03e5c7d2194812a0f8b1c4d5e",
+        "passwordHash": "5aa02f9abaec8c971d99066d1a19e269506a37f7c17ffceedccde129334407bf9fb61f43cf6c06c45e974ed99b6a07ef7d5fb4eea0d788b3a77de01d98cebe74",
+        "createdAt": "2026-01-12T09:30:00Z"
+      }
+    ],
+    [
+      "usr_alex",
+      {
+        "id": "usr_alex",
+        "email": "alex.rivera@advantage-ai.enterprise",
+        "name": "Alex Rivera",
+        "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150",
+        "passwordSalt": "a8f192b03e5c7d2194812a0f8b1c4d5e",
+        "passwordHash": "5aa02f9abaec8c971d99066d1a19e269506a37f7c17ffceedccde129334407bf9fb61f43cf6c06c45e974ed99b6a07ef7d5fb4eea0d788b3a77de01d98cebe74",
+        "createdAt": "2026-01-15T11:00:00Z"
+      }
+    ],
+    [
+      "usr_david",
+      {
+        "id": "usr_david",
+        "email": "david.kim@advantage-ai.enterprise",
+        "name": "David Kim",
+        "avatarUrl": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150",
+        "passwordSalt": "a8f192b03e5c7d2194812a0f8b1c4d5e",
+        "passwordHash": "5aa02f9abaec8c971d99066d1a19e269506a37f7c17ffceedccde129334407bf9fb61f43cf6c06c45e974ed99b6a07ef7d5fb4eea0d788b3a77de01d98cebe74",
+        "createdAt": "2026-01-20T14:00:00Z"
+      }
+    ]
+  ],
+  "organizations": [
+    [
+      "org_apex",
+      {
+        "id": "org_apex",
+        "name": "Apex Global Commerce",
+        "slug": "apex-global",
+        "tier": "ENTERPRISE",
+        "defaultCurrency": "USD",
+        "emergencyStopActive": true,
+        "settings": {
+          "budgetChangeApprovalThresholdMinorUnits": 50000,
+          "dailySpendCeilingMinorUnits": 2500000,
+          "monthlySpendCeilingMinorUnits": 50000000,
+          "requireFourEyesApproval": true,
+          "brandSafetyStrictness": "STRICT"
+        },
+        "createdAt": "2026-01-10T08:00:00Z",
+        "emergencyStopReason": "Unusual traffic spike detected on Meta retargeting",
+        "emergencyStopTriggeredAt": "2026-10-18T10:21:20.193Z",
+        "emergencyStopTriggeredBy": "Sarah Jenkins"
+      }
+    ],
+    [
+      "org_solaris",
+      {
+        "id": "org_solaris",
+        "name": "Solaris Cloud Software",
+        "slug": "solaris-cloud",
+        "tier": "GROWTH",
+        "defaultCurrency": "EUR",
+        "emergencyStopActive": false,
+        "settings": {
+          "budgetChangeApprovalThresholdMinorUnits": 30000,
+          "dailySpendCeilingMinorUnits": 1000000,
+          "monthlySpendCeilingMinorUnits": 20000000,
+          "requireFourEyesApproval": true,
+          "brandSafetyStrictness": "STANDARD"
+        },
+        "createdAt": "2026-02-01T10:00:00Z"
+      }
+    ],
+    [
+      "org_zenith",
+      {
+        "id": "org_zenith",
+        "name": "Zenith Media APAC",
+        "slug": "zenith-apac",
+        "tier": "ENTERPRISE",
+        "defaultCurrency": "INR",
+        "emergencyStopActive": false,
+        "settings": {
+          "budgetChangeApprovalThresholdMinorUnits": 4000000,
+          "dailySpendCeilingMinorUnits": 200000000,
+          "monthlySpendCeilingMinorUnits": 5000000000,
+          "requireFourEyesApproval": true,
+          "brandSafetyStrictness": "STRICT"
+        },
+        "createdAt": "2026-02-15T10:00:00Z"
+      }
+    ]
+  ],
+  "memberships": [
+    [
+      "mem_1",
+      {
+        "id": "mem_1",
+        "userId": "usr_sarah",
+        "orgId": "org_apex",
+        "role": "OWNER",
+        "status": "ACTIVE",
+        "joinedAt": "2026-01-10T08:00:00Z"
+      }
+    ],
+    [
+      "mem_2",
+      {
+        "id": "mem_2",
+        "userId": "usr_marcus",
+        "orgId": "org_apex",
+        "role": "FINANCE_APPROVER",
+        "status": "ACTIVE",
+        "joinedAt": "2026-01-10T08:05:00Z"
+      }
+    ],
+    [
+      "mem_3",
+      {
+        "id": "mem_3",
+        "userId": "usr_priya",
+        "orgId": "org_apex",
+        "role": "CAMPAIGN_MANAGER",
+        "status": "ACTIVE",
+        "joinedAt": "2026-01-12T09:30:00Z"
+      }
+    ],
+    [
+      "mem_4",
+      {
+        "id": "mem_4",
+        "userId": "usr_alex",
+        "orgId": "org_apex",
+        "role": "CREATIVE",
+        "status": "ACTIVE",
+        "joinedAt": "2026-01-15T11:00:00Z"
+      }
+    ],
+    [
+      "mem_5",
+      {
+        "id": "mem_5",
+        "userId": "usr_david",
+        "orgId": "org_apex",
+        "role": "ANALYST",
+        "status": "ACTIVE",
+        "joinedAt": "2026-01-20T14:00:00Z"
+      }
+    ],
+    [
+      "mem_6",
+      {
+        "id": "mem_6",
+        "userId": "usr_sarah",
+        "orgId": "org_solaris",
+        "role": "ADMIN",
+        "status": "ACTIVE",
+        "joinedAt": "2026-02-01T10:00:00Z"
+      }
+    ],
+    [
+      "mem_7",
+      {
+        "id": "mem_7",
+        "userId": "usr_marcus",
+        "orgId": "org_solaris",
+        "role": "FINANCE_APPROVER",
+        "status": "ACTIVE",
+        "joinedAt": "2026-02-01T10:00:00Z"
+      }
+    ]
+  ],
+  "invitations": [],
+  "providerConnections": [
+    [
+      "conn_meta_apex",
+      {
+        "id": "conn_meta_apex",
+        "orgId": "org_apex",
+        "provider": "meta",
+        "accountId": "act_2948102948",
+        "accountName": "Apex Global Meta Official (FB/IG)",
+        "status": "CONNECTED",
+        "environment": "PRODUCTION",
+        "capabilities": {
+          "canReadCampaigns": true,
+          "canWriteCampaigns": true,
+          "canReadMetrics": true,
+          "supportsWebhooks": true,
+          "supportsLeads": true
+        },
+        "lastSyncAt": "2026-10-18T10:03:26.191Z",
+        "syncStatus": "HEALTHY",
+        "apiQuotaUsedPercent": 34
+      }
+    ],
+    [
+      "conn_google_apex",
+      {
+        "id": "conn_google_apex",
+        "orgId": "org_apex",
+        "provider": "google",
+        "accountId": "984-210-9481",
+        "accountName": "Apex Global Performance Max & Search",
+        "status": "CONNECTED",
+        "environment": "PRODUCTION",
+        "capabilities": {
+          "canReadCampaigns": true,
+          "canWriteCampaigns": true,
+          "canReadMetrics": true,
+          "supportsWebhooks": true,
+          "supportsLeads": true
+        },
+        "lastSyncAt": "2026-10-18T09:57:26.191Z",
+        "syncStatus": "HEALTHY",
+        "apiQuotaUsedPercent": 48
+      }
+    ],
+    [
+      "conn_tiktok_apex",
+      {
+        "id": "conn_tiktok_apex",
+        "orgId": "org_apex",
+        "provider": "tiktok",
+        "accountId": "tt_adv_8391024",
+        "accountName": "Apex Spark & Video Ads (TikTok)",
+        "status": "CONNECTED",
+        "environment": "PRODUCTION",
+        "capabilities": {
+          "canReadCampaigns": true,
+          "canWriteCampaigns": true,
+          "canReadMetrics": true,
+          "supportsWebhooks": true,
+          "supportsLeads": true
+        },
+        "lastSyncAt": "2026-10-18T09:50:26.191Z",
+        "syncStatus": "HEALTHY",
+        "apiQuotaUsedPercent": 21
+      }
+    ],
+    [
+      "conn_linkedin_apex",
+      {
+        "id": "conn_linkedin_apex",
+        "orgId": "org_apex",
+        "provider": "linkedin",
+        "accountId": "li_corp_591029",
+        "accountName": "Apex Enterprise B2B Sponsored Content",
+        "status": "CONNECTED",
+        "environment": "PRODUCTION",
+        "capabilities": {
+          "canReadCampaigns": true,
+          "canWriteCampaigns": true,
+          "canReadMetrics": true,
+          "supportsWebhooks": false,
+          "supportsLeads": true
+        },
+        "lastSyncAt": "2026-10-18T09:30:26.191Z",
+        "syncStatus": "HEALTHY",
+        "apiQuotaUsedPercent": 18
+      }
+    ],
+    [
+      "conn_microsoft_apex",
+      {
+        "id": "conn_microsoft_apex",
+        "orgId": "org_apex",
+        "provider": "microsoft",
+        "accountId": "ms_ads_109284",
+        "accountName": "Apex Bing Search Network",
+        "status": "SANDBOX",
+        "environment": "SANDBOX",
+        "capabilities": {
+          "canReadCampaigns": true,
+          "canWriteCampaigns": false,
+          "canReadMetrics": true,
+          "supportsWebhooks": false,
+          "supportsLeads": false
+        },
+        "lastSyncAt": "2026-10-18T08:15:26.191Z",
+        "syncStatus": "HEALTHY",
+        "apiQuotaUsedPercent": 5
+      }
+    ]
+  ],
+  "campaigns": [
+    [
+      "cmp_meta_spring",
+      {
+        "id": "cmp_meta_spring",
+        "orgId": "org_apex",
+        "provider": "meta",
+        "providerAccountId": "act_2948102948",
+        "providerCampaignId": "meta_cmp_294019284",
+        "name": "Spring Retargeting & High-Intent Cart Abandoners",
+        "objective": "CONVERSIONS",
+        "status": "PAUSED",
+        "budgetType": "DAILY",
+        "budgetMinorUnits": 120000,
+        "currency": "USD",
+        "startDate": "2026-03-01T00:00:00Z",
+        "targeting": {
+          "locations": [
+            "United States",
+            "Canada",
+            "United Kingdom"
+          ],
+          "ageMin": 24,
+          "ageMax": 55,
+          "genders": [
+            "ALL"
+          ],
+          "interests": [
+            "Online Shopping",
+            "Consumer Electronics",
+            "Luxury Lifestyle"
+          ]
+        },
+        "adGroupCount": 4,
+        "creativeIds": [
+          "crt_1",
+          "crt_2"
+        ],
+        "actualSpendMinorUnits": 3840000,
+        "impressions": 1420500,
+        "clicks": 45600,
+        "conversions": 2180,
+        "revenueMinorUnits": 14606000,
+        "createdAt": "2026-02-28T14:00:00Z",
+        "updatedAt": "2026-03-15T10:00:00Z",
+        "version": 2
+      }
+    ],
+    [
+      "cmp_google_pmax",
+      {
+        "id": "cmp_google_pmax",
+        "orgId": "org_apex",
+        "provider": "google",
+        "providerAccountId": "984-210-9481",
+        "providerCampaignId": "goog_pmax_992140",
+        "name": "Performance Max Omnichannel Core Revenue Q1-Q2",
+        "objective": "CONVERSIONS",
+        "status": "PAUSED",
+        "budgetType": "DAILY",
+        "budgetMinorUnits": 250000,
+        "currency": "USD",
+        "startDate": "2026-01-15T00:00:00Z",
+        "targeting": {
+          "locations": [
+            "United States",
+            "Germany",
+            "France",
+            "Australia"
+          ],
+          "ageMin": 18,
+          "ageMax": 65,
+          "genders": [
+            "ALL"
+          ],
+          "keywords": [
+            "enterprise software solutions",
+            "omnichannel automation",
+            "ai commerce tool"
+          ]
+        },
+        "adGroupCount": 6,
+        "creativeIds": [
+          "crt_3"
+        ],
+        "actualSpendMinorUnits": 12500000,
+        "impressions": 4890000,
+        "clicks": 112400,
+        "conversions": 6240,
+        "revenueMinorUnits": 51250000,
+        "createdAt": "2026-01-14T10:00:00Z",
+        "updatedAt": "2026-03-10T12:00:00Z",
+        "version": 3
+      }
+    ],
+    [
+      "cmp_tiktok_genz",
+      {
+        "id": "cmp_tiktok_genz",
+        "orgId": "org_apex",
+        "provider": "tiktok",
+        "providerAccountId": "tt_adv_8391024",
+        "providerCampaignId": "tt_cmp_771920",
+        "name": "Viral Lifestyle & UGC Creator In-Feed Showcase",
+        "objective": "TRAFFIC",
+        "status": "PAUSED",
+        "budgetType": "DAILY",
+        "budgetMinorUnits": 80000,
+        "currency": "USD",
+        "startDate": "2026-03-10T00:00:00Z",
+        "targeting": {
+          "locations": [
+            "United States",
+            "United Kingdom"
+          ],
+          "ageMin": 18,
+          "ageMax": 35,
+          "genders": [
+            "ALL"
+          ],
+          "interests": [
+            "Tech Trends",
+            "Gadgets",
+            "Content Creation"
+          ]
+        },
+        "adGroupCount": 3,
+        "creativeIds": [
+          "crt_4"
+        ],
+        "actualSpendMinorUnits": 1920000,
+        "impressions": 2150000,
+        "clicks": 75250,
+        "conversions": 890,
+        "revenueMinorUnits": 4717000,
+        "createdAt": "2026-03-09T16:00:00Z",
+        "updatedAt": "2026-03-16T08:00:00Z",
+        "version": 2
+      }
+    ],
+    [
+      "cmp_linkedin_b2b",
+      {
+        "id": "cmp_linkedin_b2b",
+        "orgId": "org_apex",
+        "provider": "linkedin",
+        "providerAccountId": "li_corp_591029",
+        "providerCampaignId": "li_cmp_330194",
+        "name": "B2B Enterprise Decision Makers & CTO Spotlight",
+        "objective": "LEADS",
+        "status": "PAUSED",
+        "budgetType": "DAILY",
+        "budgetMinorUnits": 150000,
+        "currency": "USD",
+        "startDate": "2026-02-01T00:00:00Z",
+        "targeting": {
+          "locations": [
+            "North America",
+            "Western Europe"
+          ],
+          "ageMin": 30,
+          "ageMax": 65,
+          "genders": [
+            "ALL"
+          ],
+          "interests": [
+            "Cloud Architecture",
+            "Artificial Intelligence",
+            "FinTech"
+          ]
+        },
+        "adGroupCount": 2,
+        "creativeIds": [
+          "crt_5"
+        ],
+        "actualSpendMinorUnits": 4500000,
+        "impressions": 340000,
+        "clicks": 8500,
+        "conversions": 410,
+        "revenueMinorUnits": 18450000,
+        "createdAt": "2026-01-29T11:00:00Z",
+        "updatedAt": "2026-03-12T09:00:00Z",
+        "version": 2
+      }
+    ]
+  ],
+  "proposals": [
+    [
+      "prp_apex_google_scale",
+      {
+        "id": "prp_apex_google_scale",
+        "orgId": "org_apex",
+        "campaignId": "cmp_google_pmax",
+        "type": "BUDGET_INCREASE",
+        "title": "Scale Google Performance Max Daily Budget from $2,500 to $3,500",
+        "description": "Q1 ROAS has sustained 4.1x over 30 days. Pacing indicates inventory availability to scale conversions by ~35% with controlled CPA under $22.",
+        "requestedByUserId": "usr_priya",
+        "requestedAt": "2026-10-18T07:15:26.191Z",
+        "status": "PENDING",
+        "currentBudgetMinorUnits": 250000,
+        "proposedBudgetMinorUnits": 350000,
+        "currency": "USD",
+        "reason": "Evidence of 4.1x ROAS headroom and strong inventory availability.",
+        "campaignVersionAtRequest": 2
+      }
+    ]
+  ],
+  "creatives": [
+    [
+      "crt_1",
+      {
+        "id": "crt_1",
+        "orgId": "org_apex",
+        "name": "Spring Flash Sale - Dynamic Product Showcase",
+        "brandProfileId": "brd_apex",
+        "headline": "Automate Ads Across All Channels with Precision",
+        "description": "Stop guessing your ROAS. AdVantage AI coordinates Meta, Google, and TikTok ad operations in one verified dashboard.",
+        "callToAction": "START_FREE_TRIAL",
+        "targetUrl": "https://apexglobal.example.com/platform",
+        "platformFormats": [
+          "meta",
+          "tiktok"
+        ],
+        "language": "en",
+        "status": "APPROVED",
+        "brandSafetyScore": 98,
+        "brandSafetyNotes": [
+          "Strict tone adhered to",
+          "No prohibited superlatives",
+          "Compliant disclaimer attached"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600",
+        "createdAt": "2026-02-20T10:00:00Z"
+      }
+    ],
+    [
+      "crt_2",
+      {
+        "id": "crt_2",
+        "orgId": "org_apex",
+        "name": "Hindi Regional Festive Conversion Copy",
+        "brandProfileId": "brd_apex",
+        "headline": "स्मार्ट एआई विज्ञापनों से अपना आरओएएस 3 गुना बढ़ाएं",
+        "description": "मेटा, गूगल और टिकटॉक अभियानों का एक ही सुरक्षित प्लेटफॉर्म पर प्रबंधन करें।",
+        "callToAction": "LEARN_MORE",
+        "targetUrl": "https://apexglobal.example.com/in",
+        "platformFormats": [
+          "meta"
+        ],
+        "language": "hi",
+        "status": "APPROVED",
+        "brandSafetyScore": 96,
+        "brandSafetyNotes": [
+          "Culturally verified",
+          "Compliant pricing guidelines"
+        ],
+        "imageUrl": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600",
+        "createdAt": "2026-02-22T12:00:00Z"
+      }
+    ]
+  ],
+  "brandProfiles": [
+    [
+      "brd_apex",
+      {
+        "id": "brd_apex",
+        "orgId": "org_apex",
+        "name": "Apex Global",
+        "industry": "Omnichannel Enterprise & Consumer Tech",
+        "tone": "Modern, authoritative, highly trustworthy, solution-focused",
+        "primaryColor": "#2563EB",
+        "secondaryColor": "#0EA5E9",
+        "disallowedKeywords": [
+          "cheap",
+          "guaranteed profits",
+          "overnight miracle",
+          "free crypto",
+          "risk-free"
+        ],
+        "keySellingPoints": [
+          "Zero-latency real-time synchronization",
+          "Bank-grade data encryption and SOC-2 compliance",
+          "Unified cross-channel attribution engine",
+          "99.99% uptime enterprise SLA"
+        ]
+      }
+    ]
+  ],
+  "leads": [
+    [
+      "lead_wa_01",
+      {
+        "id": "lead_wa_01",
+        "orgId": "org_apex",
+        "channel": "WHATSAPP",
+        "contactName": "Vikram Mehta",
+        "contactIdentifier": "+91 98201 54321",
+        "status": "NEW",
+        "campaignId": "cmp_meta_spring",
+        "lastMessageSnippet": "Hi, I saw your Meta campaign. Can we schedule an enterprise demo for 50 users?",
+        "lastMessageAt": "2026-10-18T09:40:26.191Z",
+        "messagingWindowExpiresAt": "2026-10-19T09:15:26.191Z",
+        "consentOptIn": true,
+        "assignedToUserId": "usr_priya",
+        "createdAt": "2026-10-18T09:40:26.191Z"
+      }
+    ],
+    [
+      "lead_ig_02",
+      {
+        "id": "lead_ig_02",
+        "orgId": "org_apex",
+        "channel": "INSTAGRAM",
+        "contactName": "Elena Rostova",
+        "contactIdentifier": "@elena_digital_scale",
+        "status": "QUALIFIED",
+        "campaignId": "cmp_meta_spring",
+        "lastMessageSnippet": "Thanks for the pricing breakdown. We spend ~$80k/mo across Meta and TikTok.",
+        "lastMessageAt": "2026-10-18T07:15:26.191Z",
+        "messagingWindowExpiresAt": "2026-10-19T06:15:26.191Z",
+        "consentOptIn": true,
+        "assignedToUserId": "usr_priya",
+        "createdAt": "2026-10-18T05:15:26.191Z"
+      }
+    ]
+  ],
+  "auditLogs": [
+    {
+      "id": "audit_1792318526192_rhdevwx",
+      "orgId": "org_apex",
+      "actorUserId": "usr_sarah",
+      "actorEmail": "sarah.jenkins@advantage-ai.enterprise",
+      "actorRole": "OWNER",
+      "action": "ORGANIZATION_INITIALIZED",
+      "entityType": "ORGANIZATION",
+      "entityId": "org_apex",
+      "details": {
+        "name": "Apex Global Commerce",
+        "defaultCurrency": "USD",
+        "dailySpendCeiling": 2500000
+      },
+      "timestamp": "2026-10-18T10:15:26.192Z",
+      "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+      "hash": "2a0106445dd509d9f39e29789ed013dfcf79d47fecf6b86e9fcfbd90e45d88e1"
+    },
+    {
+      "id": "audit_1792318526192_8a2mjuv",
+      "orgId": "org_apex",
+      "actorUserId": "usr_priya",
+      "actorEmail": "priya.sharma@advantage-ai.enterprise",
+      "actorRole": "CAMPAIGN_MANAGER",
+      "action": "BUDGET_PROPOSAL_SUBMITTED",
+      "entityType": "PROPOSAL",
+      "entityId": "prp_apex_google_scale",
+      "details": {
+        "campaignId": "cmp_google_pmax",
+        "currentBudget": 250000,
+        "proposedBudget": 350000,
+        "currency": "USD"
+      },
+      "timestamp": "2026-10-18T10:15:26.192Z",
+      "prevHash": "2a0106445dd509d9f39e29789ed013dfcf79d47fecf6b86e9fcfbd90e45d88e1",
+      "hash": "a6002f8263be3d2e65a91a9bddcb1027b534a2b2908d07de8138c5c984aaa037"
+    },
+    {
+      "id": "audit_1792318880193_ogqldzt",
+      "orgId": "org_apex",
+      "actorUserId": "usr_sarah",
+      "actorEmail": "sarah.jenkins@advantage-ai.enterprise",
+      "actorRole": "OWNER",
+      "action": "EMERGENCY_STOP_TRIGGERED",
+      "entityType": "ORGANIZATION",
+      "entityId": "org_apex",
+      "details": {
+        "reason": "Unusual traffic spike detected on Meta retargeting",
+        "pausedCampaignsCount": 4
+      },
+      "timestamp": "2026-10-18T10:21:20.193Z",
+      "prevHash": "a6002f8263be3d2e65a91a9bddcb1027b534a2b2908d07de8138c5c984aaa037",
+      "hash": "99c053d26d89885e5bcb4f79e2b367563dbd7719766ae0c6509d44f05d903418"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+.github
+.playwright-cli
+.aistudio
+*.log
+.DS_Store
+.env
+data/*.tmp.*
